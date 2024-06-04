@@ -1,3 +1,8 @@
+package com.tadeaskriz.example
+
+import com.tadeaskriz.example.checker.ExampleFirBasicDeclarationChecker
+import com.tadeaskriz.example.checker.ExampleFirBasicExpressionChecker
+import com.tadeaskriz.example.checker.ExampleFirTypeRefChecker
 import org.jetbrains.kotlin.fir.FirSession
 import org.jetbrains.kotlin.fir.analysis.checkers.declaration.DeclarationCheckers
 import org.jetbrains.kotlin.fir.analysis.checkers.declaration.FirBasicDeclarationChecker
